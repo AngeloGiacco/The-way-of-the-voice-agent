@@ -2,25 +2,24 @@ import type { Metadata } from 'next';
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: 'The Way of the Voice Agent | ElevenLabs',
+  title: 'The Way of the Voice Agent',
   description:
-    'A guide to building AI voice agents that feel human. Learn conversation design, iteration workflows, and reliability engineering.',
+    'The timeless art of building AI that speaks. A philosophical guide to voice agent design.',
   keywords: [
     'voice agent',
     'AI',
     'conversational AI',
-    'speech synthesis',
-    'ElevenLabs',
+    'design philosophy',
   ],
   openGraph: {
     title: 'The Way of the Voice Agent',
-    description: 'A guide to building AI voice agents that feel human.',
+    description: 'The timeless art of building AI that speaks.',
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
     title: 'The Way of the Voice Agent',
-    description: 'A guide to building AI voice agents that feel human.',
+    description: 'The timeless art of building AI that speaks.',
   },
 };
 
@@ -35,7 +34,7 @@ export default function RootLayout({
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link
-          href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=JetBrains+Mono:wght@100..800&family=Space+Grotesk:wght@300..700&display=swap"
+          href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=EB+Garamond:ital,wght@0,400;0,500;1,400;1,500&display=swap"
           rel="stylesheet"
         />
       </head>
